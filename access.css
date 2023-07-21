@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.showcase{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 90vh;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    /* background: white; */
+    background: #FAF9F6;
+    /* width: 80%;
+    max-width: 1920px;
+    /* margin-inline: auto; */
+} 
+
+.nav-area{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.nav__container{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 4rem;
+   
+}
+.nav__left{
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+}
+.nav__center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav__right{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+.battery-icon{
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 2rem;
+}
+.header .logo{
+    margin-left: 0;
+}
+
+.bell-icon {
+    display: flex;
+    align-items: center; 
+}
+.bell-icon img {
+    height: 20px; 
+    margin-right: 5px; 
+}
+.bell-icon .icon{
+    margin-right: 12px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.hero h1{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hero span{
+    color: black;
+}
+.hero__input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.hero__input input{
+    margin-bottom: 15px;
+}
+.hero__input input[type='password'] {
+    padding: 2rem 50px;
+    width: 100%;
+    color: #f2f2f2;
+    border-radius: 5px;
+    /* border: 2px solid rgba(0, 0, 0, 0.397); */
+    border: 2px solid rgba(0, 0, 0, 0.064);
+    
+    
+} 
+.hero__input iconify-icon{
+    position: absolute;
+    left: 7%;
+    top: 36%;
+    color: grey;
+    font-size: 1.8rem;
+    transform: translate(-50%, -50%);
+    
+}
+.hero__input label{ 
+    display: inline-flex;
+    align-self: flex-end;
+    color: rgba(0, 0, 128, 0.992);
+}
+
+.hero__btn {
+    display: flex;
+    width: 100%;
+}
+.hero__btn button{
+
+    /* margin-top: 25px; */
+    font-size: 0.8rem;
+    padding: 20px;
+    text-transform: uppercase ;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    background: orange;
+    border: 2px solid orange;
+    /* margin-bottom: 25px; */
+}
+.hero__last-child{
+    color: grey;
+}
+.hero__last-child span{
+    color: navy;
+}
+.payments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    /* width: 100%; */
+}
+.one-tap{
+    display: flex;
+    background: #E2DFD2;
+    border: 2px solid rgba(0, 0, 0, 0.064);
+    border-radius: 7px;
+    padding: 10px 12px;
+    gap: 2rem;
+    
+    
+}
+.one-tap h4{
+    color: navy;
+}
+.one-tap iconify-icon{
+   color: navy;
+}
+.fast-pay{
+   display: flex;
+   background: #E2DFD2;
+   border: 2px solid rgba(0, 0, 0, 0.064);
+   border-radius: 7px;
+   padding: 10px 12px;
+   gap: 2rem;
+}
+.fast-pay h4{
+    color: navy;  
+}
+.fast-pay iconify-icon{
+    color: navy;
+}
+.access__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100vw;
+    background: #fff;
+    
+}
+.access__footer div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.8rem;
+        margin-top: 1rem;
+}
+.access__footer1 h5{
+    color: navy;
+}
+.access__footer2, .access__footer3, .access__footer4 h5{
+    color: grey;
+}
+.access__footer iconify-icon{
+    font-size: 2rem;
+    color: grey;
+}
+.access__footer3{
+    position: relative;
+}
+.access__footer3::before{
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 9px;
+    height: 9px;
+    background-color: navy;
+    border-radius: 50%;
+}
